@@ -1,0 +1,5295 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "86d0e65c-e072-46dc-8fd5-30974185f157")
+	(paper "A4")
+	(lib_symbols
+		(symbol "breakout-eagle-import:+3V3"
+			(power)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#+3V3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at -2.54 -5.08 90)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_1_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.27 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.905) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "+3V3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "breakout-eagle-import:C_MLCC_SMDCMLCC_0603"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.5588 0.0508 0)
+				(effects
+					(font
+						(size 1.2954 1.2954)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "C_MLCC_SMDCMLCC_0603"
+				(at 0.5588 -4.3688 0)
+				(effects
+					(font
+						(size 1.2954 1.2954)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_MLCC_SMDCMLCC_0603_1_0"
+				(polyline
+					(pts
+						(xy -1.905 -1.905) (xy 0 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.905) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.905) (xy 1.905 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.635) (xy -1.905 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.635) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -0.635) (xy 0 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P$2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "breakout-eagle-import:GND"
+			(power)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#GND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0"
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "breakout-eagle-import:R_SMDR0603"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -7.2898 0.3048 0)
+				(effects
+					(font
+						(size 1.2954 1.2954)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "R_SMDR0603"
+				(at 3.3274 0.3048 0)
+				(effects
+					(font
+						(size 1.2954 1.2954)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_SMDR0603_1_0"
+				(polyline
+					(pts
+						(xy -3.175 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.905) (xy -3.175 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.905) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0 1.905)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.905) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 2.54 1.905)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.905) (xy 3.175 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P$2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 105.41 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02a90eac-7efd-4921-b483-d26af06caeb4")
+	)
+	(junction
+		(at 215.9 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2cbad32e-3d7c-4840-bff5-973f8f8143a7")
+	)
+	(junction
+		(at 96.52 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3366ec95-a29a-4462-84af-efd335cd5215")
+	)
+	(junction
+		(at 207.01 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "641e1f50-f4bb-489b-bd30-15e2ce1b1a0c")
+	)
+	(junction
+		(at 77.47 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ace599fa-54a7-467a-af46-ee822538536a")
+	)
+	(junction
+		(at 198.12 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8981ecf-d39b-4199-a266-3d4f651d3477")
+	)
+	(junction
+		(at 87.63 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfc463ed-5b81-4209-a972-61baa5d45757")
+	)
+	(junction
+		(at 187.96 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5a0389c-0ce5-4807-a964-85f8785a052b")
+	)
+	(wire
+		(pts
+			(xy 218.44 104.14) (xy 215.9 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01066a05-3559-4d27-8cd4-da403a6cd137")
+	)
+	(wire
+		(pts
+			(xy 215.9 101.6) (xy 215.9 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0570258d-db31-4f53-a026-21acdfa70fba")
+	)
+	(wire
+		(pts
+			(xy 87.63 120.65) (xy 87.63 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05c829f2-b487-494d-8a84-e8107bd72e43")
+	)
+	(wire
+		(pts
+			(xy 198.12 101.6) (xy 198.12 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16ddec74-fdf9-47f6-b794-84cb6de70f6d")
+	)
+	(wire
+		(pts
+			(xy 87.63 100.33) (xy 80.01 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ca6db31-727a-4dc9-a8af-219a6dd98392")
+	)
+	(wire
+		(pts
+			(xy 91.44 90.17) (xy 91.44 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f7abd75-374d-468e-ba4a-1c840e04f890")
+	)
+	(wire
+		(pts
+			(xy 105.41 125.73) (xy 105.41 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26879fa0-f707-4d38-9127-fc84783f485c")
+	)
+	(wire
+		(pts
+			(xy 173.99 92.71) (xy 172.72 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ca2d3f7-12ca-41f4-a96d-99151a216b8c")
+	)
+	(wire
+		(pts
+			(xy 219.71 92.71) (xy 219.71 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df1322e-fc8f-415a-a3d9-13ff9644e03a")
+	)
+	(wire
+		(pts
+			(xy 227.33 104.14) (xy 227.33 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3124d312-5a36-4062-bd7f-0c98dda29526")
+	)
+	(wire
+		(pts
+			(xy 99.06 90.17) (xy 97.79 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35cd4274-4fba-4258-b44d-5d022ce57aa3")
+	)
+	(wire
+		(pts
+			(xy 107.95 101.6) (xy 105.41 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37b5cf66-fee0-4fa4-8081-add7e4089a2b")
+	)
+	(wire
+		(pts
+			(xy 207.01 104.14) (xy 207.01 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da46bec-40bf-44cc-a7be-675b3ac20b69")
+	)
+	(wire
+		(pts
+			(xy 77.47 111.76) (xy 77.47 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e86ffe6-08e2-4503-a29d-685320e7a112")
+	)
+	(wire
+		(pts
+			(xy 187.96 102.87) (xy 187.96 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "409db1b4-451e-4d42-8b5c-9cee5ce39596")
+	)
+	(wire
+		(pts
+			(xy 80.01 90.17) (xy 82.55 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "446e65de-dfcc-4d5e-b612-eb0c5d8039f6")
+	)
+	(wire
+		(pts
+			(xy 198.12 102.87) (xy 198.12 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "462851af-8003-469e-ad82-da5898c8fd30")
+	)
+	(wire
+		(pts
+			(xy 77.47 99.06) (xy 77.47 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46eb6f52-7819-45cd-8274-d98b0ac0bb74")
+	)
+	(wire
+		(pts
+			(xy 87.63 100.33) (xy 87.63 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47519758-17a0-4aea-bc76-93c3b2925c20")
+	)
+	(wire
+		(pts
+			(xy 87.63 99.06) (xy 87.63 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49686b83-eace-4f78-9635-e198a1b17423")
+	)
+	(wire
+		(pts
+			(xy 187.96 102.87) (xy 182.88 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5294bc7d-5b32-4b8a-b1cc-bf2fdd1f37e5")
+	)
+	(wire
+		(pts
+			(xy 198.12 102.87) (xy 190.5 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54be5ded-8ced-4e9a-8164-210552e1e555")
+	)
+	(wire
+		(pts
+			(xy 62.23 90.17) (xy 62.23 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56d6de3c-1fbf-4138-bd17-1f903bf4315b")
+	)
+	(wire
+		(pts
+			(xy 190.5 92.71) (xy 193.04 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "573e9e09-4bc2-4084-9a5f-3024a1fd296e")
+	)
+	(wire
+		(pts
+			(xy 172.72 92.71) (xy 172.72 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c1b6fd3-ef92-4927-8807-7226993b1b73")
+	)
+	(wire
+		(pts
+			(xy 115.57 101.6) (xy 116.84 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c6af7a8-2204-4463-8f4d-b1070238c647")
+	)
+	(wire
+		(pts
+			(xy 80.01 100.33) (xy 80.01 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "766fe431-9e23-4ca0-99fe-176c39b47d61")
+	)
+	(wire
+		(pts
+			(xy 207.01 125.73) (xy 207.01 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bbe44c0-1dc3-4e37-add8-1a7bdf20889a")
+	)
+	(wire
+		(pts
+			(xy 77.47 100.33) (xy 77.47 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c746f19-8035-4ebd-a47f-f7fdb3f53ce0")
+	)
+	(wire
+		(pts
+			(xy 198.12 123.19) (xy 198.12 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dafc042-1e05-4443-89ec-01e657e9c887")
+	)
+	(wire
+		(pts
+			(xy 187.96 114.3) (xy 187.96 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85731306-9de2-43a6-b5d3-bb9fe02c94ca")
+	)
+	(wire
+		(pts
+			(xy 215.9 104.14) (xy 215.9 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88516043-d882-449c-b711-658aac819770")
+	)
+	(wire
+		(pts
+			(xy 96.52 123.19) (xy 96.52 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "895a21d5-b0f1-4767-b12e-122410d4371c")
+	)
+	(wire
+		(pts
+			(xy 97.79 90.17) (xy 97.79 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c318e6f-5b87-440c-a0cf-5259722c5ee9")
+	)
+	(wire
+		(pts
+			(xy 77.47 100.33) (xy 72.39 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90cad1a4-d6d5-4c68-a1e8-09d93f064173")
+	)
+	(wire
+		(pts
+			(xy 72.39 90.17) (xy 71.12 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d60ea45-e138-46af-b702-adcd8767372e")
+	)
+	(wire
+		(pts
+			(xy 106.68 90.17) (xy 109.22 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a289c83e-3075-4e04-83d1-6a2c5dfbb629")
+	)
+	(wire
+		(pts
+			(xy 72.39 100.33) (xy 72.39 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3c8b062-c442-4893-b0e1-d82efb85aefc")
+	)
+	(wire
+		(pts
+			(xy 209.55 92.71) (xy 208.28 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a702e5b3-1265-4648-b704-46047d3e06a5")
+	)
+	(wire
+		(pts
+			(xy 90.17 90.17) (xy 91.44 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8dfe778-61a1-4520-8481-a3a5fb68f0ed")
+	)
+	(wire
+		(pts
+			(xy 109.22 90.17) (xy 109.22 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac65f3f2-b65a-4120-97e2-14cae91580ad")
+	)
+	(wire
+		(pts
+			(xy 105.41 99.06) (xy 105.41 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad81dab3-4fb4-4c7e-a7b2-15db2385af7c")
+	)
+	(wire
+		(pts
+			(xy 207.01 101.6) (xy 207.01 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b49b5576-157e-4154-b03f-64402b4e0e40")
+	)
+	(wire
+		(pts
+			(xy 116.84 101.6) (xy 116.84 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4a82966-2d3e-46bd-9756-de690a4fd48d")
+	)
+	(wire
+		(pts
+			(xy 187.96 101.6) (xy 187.96 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbb7608e-624d-4cde-be33-4d8e043c3a9f")
+	)
+	(wire
+		(pts
+			(xy 105.41 101.6) (xy 105.41 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf29b6b6-c66e-405b-a01e-ca60feaf90d7")
+	)
+	(wire
+		(pts
+			(xy 200.66 92.71) (xy 201.93 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c239aa1e-a7bf-49d2-8a45-2fe0441a82c8")
+	)
+	(wire
+		(pts
+			(xy 217.17 92.71) (xy 219.71 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce9c3265-4e64-4a81-a7c7-8e29f877de75")
+	)
+	(wire
+		(pts
+			(xy 207.01 104.14) (xy 208.28 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf6f7fd0-70d4-4e05-bd87-07e186143151")
+	)
+	(wire
+		(pts
+			(xy 182.88 92.71) (xy 181.61 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf81e886-abef-43a4-8ed7-d30168f6c09a")
+	)
+	(wire
+		(pts
+			(xy 96.52 101.6) (xy 96.52 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d31a8c9b-feb4-49cc-8c43-586d74f4e22e")
+	)
+	(wire
+		(pts
+			(xy 208.28 92.71) (xy 208.28 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d441e438-982f-42bd-b0a7-6262600f95a2")
+	)
+	(wire
+		(pts
+			(xy 63.5 90.17) (xy 62.23 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4d98436-d766-4fec-90c3-057ec071c863")
+	)
+	(wire
+		(pts
+			(xy 182.88 102.87) (xy 182.88 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d71c087d-8950-4dac-a772-6c2a3627b7a7")
+	)
+	(wire
+		(pts
+			(xy 215.9 128.27) (xy 215.9 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0ee0a01-8f00-40f3-a84c-b4052fc72685")
+	)
+	(wire
+		(pts
+			(xy 96.52 101.6) (xy 97.79 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd49f2a-005c-40eb-b4c2-e47a1107d0fc")
+	)
+	(wire
+		(pts
+			(xy 226.06 104.14) (xy 227.33 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f09ea4e7-a985-47e4-94a9-9dbd8a293d0a")
+	)
+	(wire
+		(pts
+			(xy 190.5 102.87) (xy 190.5 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f47c0eb6-5aaf-4430-b484-77ed23ca533e")
+	)
+	(wire
+		(pts
+			(xy 96.52 99.06) (xy 96.52 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa6c2fc2-d878-412a-8656-b72b127985e5")
+	)
+	(wire
+		(pts
+			(xy 201.93 92.71) (xy 201.93 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff84c6fc-14ef-4506-bf93-1c8e5f4cb854")
+	)
+	(global_label "+3V3"
+		(shape bidirectional)
+		(at 96.52 99.06 180)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify right)
+		)
+		(uuid "12b47910-8ca5-450f-9892-2d2f2ac367e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.52 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape bidirectional)
+		(at 77.47 99.06 180)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify right)
+		)
+		(uuid "1a89afcf-e19e-465f-82de-7b8b972c8cdb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.47 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 226.06 104.14 180)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify right)
+		)
+		(uuid "1dd21105-4af2-41c0-af7c-f4e9670b7fc6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.06 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape bidirectional)
+		(at 198.12 101.6 180)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify right)
+		)
+		(uuid "332d5b3d-4872-43fd-99cd-8da3c1e3565d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 115.57 101.6 180)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify right)
+		)
+		(uuid "462e7993-40ef-49e1-b8ca-d6a95d840c67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.57 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape bidirectional)
+		(at 215.9 101.6 180)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify right)
+		)
+		(uuid "6e9a9348-8926-403b-a97f-9ec5f71e918f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape bidirectional)
+		(at 87.63 99.06 180)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify right)
+		)
+		(uuid "791871ac-9b0d-4f83-91b5-6003def2bb62")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.63 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUT4"
+		(shape bidirectional)
+		(at 105.41 114.3 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "7f7d7c3d-dac4-4460-b0c6-517a87462499")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUT8"
+		(shape bidirectional)
+		(at 215.9 116.84 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "853fa08d-9b39-42c4-a483-bd8054c171ca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.9 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 106.68 90.17 180)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify right)
+		)
+		(uuid "8585c68a-70e6-4dc2-ae0e-75df1d011bca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.68 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUT3"
+		(shape bidirectional)
+		(at 96.52 114.3 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "8de500c2-4474-43db-a09e-14c9f50f60e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.52 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUT1"
+		(shape bidirectional)
+		(at 77.47 111.76 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "96064e74-cae6-48d0-bb3a-492db36c36a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.47 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUT6"
+		(shape bidirectional)
+		(at 198.12 115.57 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "9cbe3955-3012-47e0-862b-8fb196526148")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.12 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUT2"
+		(shape bidirectional)
+		(at 87.63 113.03 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "a0fe3e5a-2fed-4357-b34c-9a4e27021d38")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.63 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 217.17 92.71 180)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify right)
+		)
+		(uuid "a4a04aa6-82e4-4977-9c94-a25408e82181")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 90.17 90.17 180)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify right)
+		)
+		(uuid "ab8b6785-dea6-479c-b65a-d44882792369")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 200.66 92.71 180)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify right)
+		)
+		(uuid "ba66c929-5b09-44e8-b34e-6875aceca858")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape bidirectional)
+		(at 187.96 101.6 180)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify right)
+		)
+		(uuid "cb0c24d2-a8e2-48f8-884b-18a1d621b92c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.96 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUT7"
+		(shape bidirectional)
+		(at 207.01 116.84 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "d2d44c9e-59c4-4516-ae36-4c142d184d84")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.01 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUT5"
+		(shape bidirectional)
+		(at 187.96 114.3 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "e46b83a2-44ff-4781-8af8-acb582d4eadf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.96 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape bidirectional)
+		(at 105.41 99.06 180)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify right)
+		)
+		(uuid "e5771263-f5ee-4865-88c7-eeff014484b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 173.99 92.71 180)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify right)
+		)
+		(uuid "e944f0ab-4124-4de9-820a-ab6ee662102f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.99 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 63.5 90.17 180)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify right)
+		)
+		(uuid "f29c71dc-25dd-4942-81c9-62adb5768c31")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape bidirectional)
+		(at 207.01 101.6 180)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify right)
+		)
+		(uuid "f85a9f71-8a50-4b23-a317-4f0e78bb2f96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.01 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:GND")
+		(at 62.23 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00000a5a0ac8")
+		(property "Reference" "#GND017"
+			(at 62.23 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 97.79 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "110e7ab9-f729-4762-af80-77c2285d6a51")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "#GND017")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "#GND17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:GND")
+		(at 116.84 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000109f320a")
+		(property "Reference" "#GND014"
+			(at 116.84 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 110.49 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6ec8664-56cc-4d63-8f95-76a428288139")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "#GND014")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "#GND14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:C_MLCC_SMDCMLCC_0603")
+		(at 85.09 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000010d33965")
+		(property "Reference" "C3"
+			(at 83.7438 89.6112 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C_MLCC_SMDCMLCC_0603"
+			(at 89.4588 89.6112 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "breakout:C_MLCC_0603"
+			(at 85.09 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "1f0e0a14-1ed0-4ff3-a2cc-08ba750053af")
+		)
+		(pin "P$2"
+			(uuid "1e840cf9-af88-40c8-a977-7450ed90177e")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "C3")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:GND")
+		(at 87.63 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000019da8d48")
+		(property "Reference" "#GND011"
+			(at 87.63 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 135.89 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1878ac97-a1ea-45e7-9784-310290e0fb06")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "#GND011")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "#GND11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:+3V3")
+		(at 198.12 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00001b9f338c")
+		(property "Reference" "#+3V08"
+			(at 198.12 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 195.58 104.14 90)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4302f6d-8af0-4fac-ab3c-78d787795bfa")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "#+3V08")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "#+3V8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:R_SMDR0603")
+		(at 96.52 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00001c562e25")
+		(property "Reference" "R3"
+			(at 96.1898 135.5852 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100"
+			(at 93.9292 126.5682 90)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "breakout:R_0603"
+			(at 96.52 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RK73H1JTTD1000F"
+			(at 96.52 128.27 90)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "00afff51-6222-4de1-ad0a-bebe109515c5")
+		)
+		(pin "P$1"
+			(uuid "fcd4b7bf-63f9-41cb-b2b5-f40c5244f58a")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "R3")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:+3V3")
+		(at 207.01 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000021780286")
+		(property "Reference" "#+3V09"
+			(at 207.01 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 204.47 104.14 90)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a47a3794-a4c9-423a-9277-71680eccc97e")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "#+3V09")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "#+3V9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:R_SMDR0603")
+		(at 207.01 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00002271b76b")
+		(property "Reference" "R23"
+			(at 206.6798 119.0752 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100"
+			(at 205.1812 110.0582 90)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "breakout:R_0603"
+			(at 207.01 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RK73H1JTTD1000F"
+			(at 207.01 111.76 90)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "12dd1067-8cd7-4a34-ad07-7e7c45adcccc")
+		)
+		(pin "P$2"
+			(uuid "7aa5e1f8-d39f-469a-9b03-522b9eccba2d")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "R23")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:GND")
+		(at 109.22 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000257b06b4")
+		(property "Reference" "#GND015"
+			(at 109.22 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 96.52 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4c3279a-b20d-4758-8840-9121166dbfb0")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "#GND015")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "#GND15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:GND")
+		(at 215.9 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00002df12463")
+		(property "Reference" "#GND020"
+			(at 215.9 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 143.51 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57d3d050-4672-47ca-a6d7-50bba20740b3")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "#GND020")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "#GND20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:GND")
+		(at 219.71 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00002ee633c3")
+		(property "Reference" "#GND025"
+			(at 219.71 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 99.06 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48f7b08c-6212-40a3-baff-8103722469e6")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "#GND025")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "#GND25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:C_MLCC_SMDCMLCC_0603")
+		(at 66.04 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000327b8adf")
+		(property "Reference" "C4"
+			(at 64.6938 89.6112 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C_MLCC_SMDCMLCC_0603"
+			(at 70.4088 89.6112 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "breakout:C_MLCC_0603"
+			(at 66.04 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "88954bf2-6bb5-4c86-9eca-4e421733d0b8")
+		)
+		(pin "P$2"
+			(uuid "51189038-ddb4-4a47-9801-a3977e40dc9b")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "C4")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:+3V3")
+		(at 87.63 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000037d36547")
+		(property "Reference" "#+3V02"
+			(at 87.63 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 85.09 101.6 90)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6236725-2913-45aa-b36a-c99f63fd2e9a")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "#+3V02")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "#+3V2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:C_MLCC_SMDCMLCC_0603")
+		(at 110.49 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00003bb99fbe")
+		(property "Reference" "C1"
+			(at 109.1438 101.0412 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C_MLCC_SMDCMLCC_0603"
+			(at 114.8588 101.0412 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "breakout:C_MLCC_0603"
+			(at 110.49 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "196e17c0-aec8-450c-bdca-1b1ff16dbb7b")
+		)
+		(pin "P$1"
+			(uuid "63c1d1d8-70e3-49af-b733-238da5b5dfd6")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "C1")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:R_SMDR0603")
+		(at 77.47 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00003d30c464")
+		(property "Reference" "R5"
+			(at 77.1398 113.9952 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100"
+			(at 75.1332 104.4702 90)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "breakout:R_0603"
+			(at 77.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RK73H1JTTD1000F"
+			(at 77.47 106.68 90)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "4455af2a-0ff5-47bd-b599-9e24e8070505")
+		)
+		(pin "P$1"
+			(uuid "5bc6fdcb-2256-4b56-ab06-21a95eb758fe")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "R5")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:C_MLCC_SMDCMLCC_0603")
+		(at 176.53 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00003dde4ffc")
+		(property "Reference" "C9"
+			(at 175.1838 92.1512 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C_MLCC_SMDCMLCC_0603"
+			(at 180.8988 92.1512 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "breakout:C_MLCC_0603"
+			(at 176.53 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "fc0c6872-5e80-4ede-b9ff-6e2eb342884d")
+		)
+		(pin "P$2"
+			(uuid "f9048e37-77a5-4ec3-9c28-176105b4e5ee")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "C9")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:+3V3")
+		(at 77.47 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000406b5002")
+		(property "Reference" "#+3V01"
+			(at 77.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 74.93 101.6 90)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ab4c7e8-4ace-4e2c-babd-0f4113bac820")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "#+3V01")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "#+3V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:GND")
+		(at 172.72 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000419d9c11")
+		(property "Reference" "#GND027"
+			(at 172.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 100.33 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7df06774-38ee-405a-b3d2-d570a0c24d95")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "#GND027")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "#GND27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:R_SMDR0603")
+		(at 198.12 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000050532f40")
+		(property "Reference" "R18"
+			(at 197.7898 135.5852 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100"
+			(at 196.2912 128.8542 90)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "breakout:R_0603"
+			(at 198.12 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RK73H1JTTD1000F"
+			(at 198.12 128.27 90)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "8713fadf-b929-4acc-92e4-6e3d12c9ea33")
+		)
+		(pin "P$2"
+			(uuid "1a8dad51-4046-47f2-b4bf-92d7e0c50e3c")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:R_SMDR0603")
+		(at 207.01 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005300ea0d")
+		(property "Reference" "R19"
+			(at 206.6798 138.1252 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100"
+			(at 205.1812 131.3942 90)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "breakout:R_0603"
+			(at 207.01 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RK73H1JTTD1000F"
+			(at 207.01 130.81 90)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "fcc75e57-02ef-4971-9829-7a63a0435341")
+		)
+		(pin "P$1"
+			(uuid "ee446ddc-5996-4346-a4c7-100f49b9d18d")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:R_SMDR0603")
+		(at 96.52 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000565508bc")
+		(property "Reference" "R7"
+			(at 96.1898 116.5352 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100"
+			(at 96.1898 105.8926 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "breakout:R_0603"
+			(at 96.52 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RK73H1JTTD1000F"
+			(at 96.52 109.22 90)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "f070aeec-0122-4ff0-9928-0c94b54b67b2")
+		)
+		(pin "P$2"
+			(uuid "2246ff96-0ba9-41ae-a06a-87cb88d8b39a")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "R7")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:GND")
+		(at 227.33 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000664b2fae")
+		(property "Reference" "#GND024"
+			(at 227.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 113.03 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "199235e0-cd1c-49cf-b944-d1a09b91c2be")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "#GND024")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "#GND24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:C_MLCC_SMDCMLCC_0603")
+		(at 101.6 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000733ca19d")
+		(property "Reference" "C2"
+			(at 100.2538 89.6112 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C_MLCC_SMDCMLCC_0603"
+			(at 105.9688 89.6112 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "breakout:C_MLCC_0603"
+			(at 101.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "a08f2229-b5ed-4db2-bb8a-3966247b4883")
+		)
+		(pin "P$2"
+			(uuid "5872ce73-1989-4bad-b71a-fb58da90eedd")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "C2")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:R_SMDR0603")
+		(at 198.12 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000073741284")
+		(property "Reference" "R22"
+			(at 197.7898 117.8052 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100"
+			(at 195.2752 109.8042 90)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "breakout:R_0603"
+			(at 198.12 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RK73H1JTTD1000F"
+			(at 198.12 110.49 90)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "4e227590-7669-4145-b695-660239df465a")
+		)
+		(pin "P$1"
+			(uuid "0f917623-346f-4ef7-b6ce-e4349abb8e2a")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "R22")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:C_MLCC_SMDCMLCC_0603")
+		(at 195.58 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000078291c28")
+		(property "Reference" "C8"
+			(at 194.2338 92.1512 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C_MLCC_SMDCMLCC_0603"
+			(at 199.9488 92.1512 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "breakout:C_MLCC_0603"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "6a51cdf7-0cbf-4cfe-bf63-50d7301cb09c")
+		)
+		(pin "P$1"
+			(uuid "2a5604c8-64eb-4c27-a0a1-e9d744e7f417")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "C8")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:R_SMDR0603")
+		(at 105.41 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00007b845fe4")
+		(property "Reference" "R8"
+			(at 105.0798 116.5352 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100"
+			(at 105.0798 105.8926 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "breakout:R_0603"
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RK73H1JTTD1000F"
+			(at 105.41 109.22 90)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "f619e4ae-ba90-4916-b348-f1d783df3738")
+		)
+		(pin "P$1"
+			(uuid "e0de68da-c638-49f1-856b-d4c5c49e0f56")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:+3V3")
+		(at 215.9 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00007d3b51b6")
+		(property "Reference" "#+3V010"
+			(at 215.9 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 213.36 104.14 90)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b836aa7-9bcd-4434-b86b-5a738b131353")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "#+3V010")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "#+3V10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:R_SMDR0603")
+		(at 77.47 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000083eedb7b")
+		(property "Reference" "R1"
+			(at 77.1398 130.5052 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100"
+			(at 74.8792 122.5042 90)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "breakout:R_0603"
+			(at 77.47 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RK73H1JTTD1000F"
+			(at 77.47 123.19 90)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "8a8d47b4-8356-4b50-825f-5be4cba88212")
+		)
+		(pin "P$2"
+			(uuid "5594e939-0460-46a4-be16-b36eef902352")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "R1")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:GND")
+		(at 96.52 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000845c69e3")
+		(property "Reference" "#GND010"
+			(at 96.52 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 138.43 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a6f92c5-062a-4280-bc4f-12151f899e15")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "#GND010")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "#GND10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:GND")
+		(at 105.41 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000928df91d")
+		(property "Reference" "#GND09"
+			(at 105.41 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 140.97 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac7e5e97-76f1-4687-a851-1ab878ed833d")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "#GND09")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "#GND9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:R_SMDR0603")
+		(at 215.9 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00009456610d")
+		(property "Reference" "R24"
+			(at 215.5698 119.0752 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100"
+			(at 214.5792 109.8042 90)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "breakout:R_0603"
+			(at 215.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RK73H1JTTD1000F"
+			(at 215.9 111.76 90)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "25cac264-87b9-4f42-85c2-6c5032ed40ad")
+		)
+		(pin "P$2"
+			(uuid "a085531a-c235-45d3-a06f-18074375f887")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "R24")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:GND")
+		(at 91.44 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000099d4d269")
+		(property "Reference" "#GND016"
+			(at 91.44 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fea33c4d-be9b-4cef-8d1e-3f95cae36fc5")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "#GND016")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "#GND16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:GND")
+		(at 201.93 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00009e0685e6")
+		(property "Reference" "#GND026"
+			(at 201.93 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 99.06 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "262ff8b4-70f1-42ad-bb0e-98ed84e552b1")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "#GND026")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "#GND26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:R_SMDR0603")
+		(at 215.9 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00009fbad440")
+		(property "Reference" "R20"
+			(at 215.5698 140.6652 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100"
+			(at 214.0712 131.3942 90)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "breakout:R_0603"
+			(at 215.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RK73H1JTTD1000F"
+			(at 215.9 133.35 90)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "0b5b6cf4-3a09-4919-b007-9583c6d3aea8")
+		)
+		(pin "P$1"
+			(uuid "bc56ffb0-0b15-47fc-8a8f-520948d10eec")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "R20")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:R_SMDR0603")
+		(at 105.41 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000a2882dfc")
+		(property "Reference" "R4"
+			(at 105.0798 138.1252 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100"
+			(at 103.0732 129.1082 90)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "breakout:R_0603"
+			(at 105.41 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RK73H1JTTD1000F"
+			(at 105.41 130.81 90)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "67d241a2-090d-4a16-9cd1-08c05987c348")
+		)
+		(pin "P$1"
+			(uuid "0050f101-aade-47ee-a9bc-aa597927166d")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "R4")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:+3V3")
+		(at 187.96 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000a36165e5")
+		(property "Reference" "#+3V07"
+			(at 187.96 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 185.42 104.14 90)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8ebd521-e28d-40b7-89d3-c81d081d820e")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "#+3V07")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "#+3V7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:C_MLCC_SMDCMLCC_0603")
+		(at 212.09 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000a3d5f203")
+		(property "Reference" "C7"
+			(at 210.7438 92.1512 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C_MLCC_SMDCMLCC_0603"
+			(at 216.4588 92.1512 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "breakout:C_MLCC_0603"
+			(at 212.09 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "445df339-3f46-4949-96b9-5c031fae8d99")
+		)
+		(pin "P$1"
+			(uuid "77625192-dc6a-482b-9797-0d93c6dee7fb")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "C7")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:+3V3")
+		(at 96.52 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000a56f219e")
+		(property "Reference" "#+3V03"
+			(at 96.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 93.98 101.6 90)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "258af2b3-4845-413c-ab8c-29b4ba65e10b")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "#+3V03")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "#+3V3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:GND")
+		(at 77.47 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000a5f18d96")
+		(property "Reference" "#GND012"
+			(at 77.47 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 133.35 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d56bd97a-ba75-4b49-854a-dea060da7f83")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "#GND012")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "#GND12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:R_SMDR0603")
+		(at 187.96 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000a78013c2")
+		(property "Reference" "R21"
+			(at 187.6298 116.5352 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100"
+			(at 185.3692 108.5342 90)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "breakout:R_0603"
+			(at 187.96 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RK73H1JTTD1000F"
+			(at 187.96 109.22 90)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "fa994e44-cef9-4ea0-815d-1aede16bcfd8")
+		)
+		(pin "P$1"
+			(uuid "58fdc221-88cc-4401-9b94-51bff903d83f")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:R_SMDR0603")
+		(at 87.63 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000acb3c639")
+		(property "Reference" "R6"
+			(at 87.2998 115.2652 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100"
+			(at 87.2998 104.6226 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "breakout:R_0603"
+			(at 87.63 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RK73H1JTTD1000F"
+			(at 87.63 107.95 90)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "f8bfcac6-4900-4882-9a34-6a75beb9bd27")
+		)
+		(pin "P$2"
+			(uuid "5d37bc07-9e3a-4337-859b-841473affa0d")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "R6")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:R_SMDR0603")
+		(at 87.63 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000bbe8e9ee")
+		(property "Reference" "R2"
+			(at 87.2998 133.0452 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100"
+			(at 85.5472 124.0282 90)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "breakout:R_0603"
+			(at 87.63 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RK73H1JTTD1000F"
+			(at 87.63 125.73 90)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "546a0a40-fb83-49fc-9b0c-3bcbcb436e63")
+		)
+		(pin "P$1"
+			(uuid "a0bbba4c-b3cc-4b4f-83e1-184ab7d4bd36")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "R2")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:GND")
+		(at 187.96 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000c7080fd3")
+		(property "Reference" "#GND023"
+			(at 187.96 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 135.89 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb1dba8f-6ca5-41cc-a32e-df81922ca65f")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "#GND023")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "#GND23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:GND")
+		(at 207.01 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000cf593dc2")
+		(property "Reference" "#GND021"
+			(at 207.01 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 140.97 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1eecc072-4b94-4460-b11e-ffac6e9f13b4")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "#GND021")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "#GND21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:R_SMDR0603")
+		(at 187.96 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000e12d941d")
+		(property "Reference" "R17"
+			(at 187.6298 133.0452 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100"
+			(at 186.1312 126.5682 90)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "breakout:R_0603"
+			(at 187.96 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RK73H1JTTD1000F"
+			(at 187.96 125.73 90)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "458b4578-f0be-4a74-8465-9c3a7625ac47")
+		)
+		(pin "P$2"
+			(uuid "39eafadf-3adf-44e7-9a62-f6fca4996cfa")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:C_MLCC_SMDCMLCC_0603")
+		(at 220.98 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000e451e4d4")
+		(property "Reference" "C6"
+			(at 219.6338 103.5812 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C_MLCC_SMDCMLCC_0603"
+			(at 225.3488 103.5812 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "breakout:C_MLCC_0603"
+			(at 220.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "6d8d91d7-fcde-463b-8155-bc7ca16e908a")
+		)
+		(pin "P$2"
+			(uuid "56401bfe-1369-49b8-8ae0-f7a9d2cd9243")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "C6")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:+3V3")
+		(at 105.41 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000e81106ee")
+		(property "Reference" "#+3V04"
+			(at 105.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 102.87 101.6 90)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31ce5ec2-cd05-44bb-9804-3125534978bd")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "#+3V04")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "#+3V4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "breakout-eagle-import:GND")
+		(at 198.12 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000fb1cd9cf")
+		(property "Reference" "#GND022"
+			(at 198.12 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 138.43 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd731f2a-21c2-4219-9ff9-b790dfc720e4")
+		)
+		(instances
+			(project "breakout"
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251/00000000-0000-0000-0000-0000616deb52"
+					(reference "#GND022")
+					(unit 1)
+				)
+				(path "/b9e20a7b-deda-43ec-9813-07aa59669251"
+					(reference "#GND22")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
